@@ -3,15 +3,71 @@
 *::before {
 	box-sizing: border-box;
 }
+/* effet de clignottement */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+ background: #111;
+ font-family: "Open Sans",  Impact;
+}
+
+.insta {
+  color: #fff;
+  
+  text-shadow:0px 0px 105px #fff,
+      0px 0px 1px #fff, 
+      0px 0px 2px #fff,
+      0px 0px 0px #fff,
+      0px 0px 0px #fff,
+      0px 0px 0px #fff,
+      0px 0px 2px #fff,
+      0px 0px 2px #fff,
+      0px 0px 0px #fff,
+      0px 0px 5px #fff,
+      0px 0px 0px #7B96B8,
+   
+      0px 10px 5px #7B96B8,
+      0px 5px 5px #7B96B8,
+      0px 5px 5px #7B96B8,
+      0px 5px 5px #7B96B8,
+      0px -5px 5px #7B96B8,
+      0px -5px 5px #7B96B8;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 105px #fff,
+      0px 0px 1px #fff, 
+      0px 0px 2px #fff,
+      0px 0px 0px #fff,
+      0px 0px 2px #fff,
+      0px 0px 0px #fff,
+      0px 0px 2px #fff,
+      0px 0px 2px #fff,
+      0px 0px 5px #fff,
+      0px 0px 5px #fff,
+      0px 0px 5px #7B96B8,
+      0px 0px 15px #7B96B8,
+      0px 10px 10px #7B96B8,
+      0px 10px 10px #7B96B8,
+      0px 10px 10px #7B96B8,
+      0px 10px 10px #7B96B8,
+      0px -10px 10px #7B96B8,
+      0px -10px 10px #7B96B8;
+  }
+}
+
+/* fin de l'effet */
 
 :root {
 	font-size: 12px;
 	--color-text: rgba(255,255,255,0.95);
 	--color-bg: #0c0b10;
-	--color-link: rgba(150, 19, 220, 0.559);
-	--color-bg-date: rgba(97, 56, 178, 0.547);
-	--color-link-hover: rgb(94 54 176 / 75%);
-	--color-border: rgba(244, 237, 237, 0.368);
+	--color-link: rgba(255, 255, 255, 0.701);
+	--color-bg-date: rgba(178, 56, 56, 0.547);
+	--color-link-hover: rgba(131, 2, 2, 0.75);
+	--color-border: rgba(230, 206, 206, 0.489);
+
 }
 p.r{
   color:rgb(150, 19, 220);
@@ -19,11 +75,13 @@ p.r{
 body {
 	margin: 0;
 	color: var(--color-text);
-	background-color: var(--color-bg);
+
 	font-family: "ocr-a-std", monospace;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-image:linear-gradient(180deg,black
+	,#3e2d2d) ;
 }
 
 /* Page Loader */
@@ -294,7 +352,8 @@ body #cdawrap {
 }
 /* boutons */
 footer{
-	background-color: #0c0b10;
+	background-image:linear-gradient(180deg,#15141b00
+	,#36344400) ;
 	color: #fff;
 	
 	display: flex;
@@ -434,7 +493,7 @@ box-shadow: 0px 0px 0px #ffffff00;
 
   /* reseaux */
 section.services{
-	background-color: #0c0b10;
+	background-image:linear-gradient(180deg,#19182100, #15141b00) ;
 	color: #fff;
 	height: 10px;
 	display: flex;
@@ -457,8 +516,27 @@ p.linkedin{
 	display: grid;
 	place-items: center;
 	width: 192px;
-	
+	text-shadow:0px 0px 105px #fff,
+      0px 0px 1px #fff, 
+      0px 0px 2px #fff,
+      0px 0px 0px #fff,
+      0px 0px 0px #fff,
+      0px 0px 0px #fff,
+      0px 0px 2px #fff,
+      0px 0px 2px #fff,
+      0px 0px 0px #fff,
+      0px 0px 5px #fff,
+      0px 0px 0px #7B96B8,
+   
+      0px 10px 5px #7B96B8,
+      0px 5px 5px #7B96B8,
+      0px 5px 5px #7B96B8,
+      0px 5px 5px #7B96B8,
+      0px -5px 5px #7B96B8,
+      0px -5px 5px #7B96B8;
 }
+	
+
 .linkedin span::first-letter {
 	opacity: 0.5;
 }
@@ -468,8 +546,27 @@ p.tiktok{
 	display: grid;
 	place-items: center;
 	width: 192px;
-	 
+	text-shadow:0px 0px 105px #fff,
+      0px 0px 1px #fff, 
+      0px 0px 2px #fff,
+      0px 0px 0px #fff,
+      0px 0px 0px #fff,
+      0px 0px 0px #fff,
+      0px 0px 2px #fff,
+      0px 0px 2px #fff,
+      0px 0px 0px #fff,
+      0px 0px 5px #fff,
+      0px 0px 0px #7B96B8,
+   
+      0px 10px 5px #7B96B8,
+      0px 5px 5px #7B96B8,
+      0px 5px 5px #7B96B8,
+      0px 5px 5px #7B96B8,
+      0px -5px 5px #7B96B8,
+      0px -5px 5px #7B96B8;
 }
+	 
+
 .tiktok span::first-letter {
 	opacity: 0.5;
 }
