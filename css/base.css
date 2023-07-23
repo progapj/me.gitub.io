@@ -438,6 +438,7 @@ a.sss{
 box-shadow: 0px 0px 0px #ffffff00;
 	fill: var(--_fill, #656565);
 	transition: fill 0.3s;
+	font-size: medium;
   }
 
   /* reseaux */
@@ -452,10 +453,14 @@ section.services{
 	
 }
 
+ div.reseaux{
+	border-bottom: 1.3px solid var(--color-border);
+} 
 .insta{
 	display: grid;
 	place-items: center;
 	width: 192px;
+	
 
 }
 .insta span::first-letter {
@@ -481,7 +486,9 @@ p.tiktok{
 	width: 192px;
 	
 }
-	 
+i.fa-brands {
+    font-size: 40px;
+}	 
 
 .tiktok span::first-letter {
 	opacity: 0.5;
