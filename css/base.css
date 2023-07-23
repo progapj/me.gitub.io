@@ -4,58 +4,7 @@
 	box-sizing: border-box;
 }
 /* effet de clignottement */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body {
- background: #111;
- font-family: "Open Sans",  Impact;
-}
-
-.insta {
-  color: #fff;
-  
-  text-shadow:0px 0px 105px #fff,
-      0px 0px 1px #fff, 
-      0px 0px 2px #fff,
-      0px 0px 0px #fff,
-      0px 0px 0px #fff,
-      0px 0px 0px #fff,
-      0px 0px 2px #fff,
-      0px 0px 2px #fff,
-      0px 0px 0px #fff,
-      0px 0px 5px #fff,
-      0px 0px 0px #7B96B8,
-   
-      0px 10px 5px #7B96B8,
-      0px 5px 5px #7B96B8,
-      0px 5px 5px #7B96B8,
-      0px 5px 5px #7B96B8,
-      0px -5px 5px #7B96B8,
-      0px -5px 5px #7B96B8;
-}
-
-@keyframes blur {
-  from {
-    text-shadow:0px 0px 105px #fff,
-      0px 0px 1px #fff, 
-      0px 0px 2px #fff,
-      0px 0px 0px #fff,
-      0px 0px 2px #fff,
-      0px 0px 0px #fff,
-      0px 0px 2px #fff,
-      0px 0px 2px #fff,
-      0px 0px 5px #fff,
-      0px 0px 5px #fff,
-      0px 0px 5px #7B96B8,
-      0px 0px 15px #7B96B8,
-      0px 10px 10px #7B96B8,
-      0px 10px 10px #7B96B8,
-      0px 10px 10px #7B96B8,
-      0px 10px 10px #7B96B8,
-      0px -10px 10px #7B96B8,
-      0px -10px 10px #7B96B8;
-  }
-}
 
 /* fin de l'effet */
 
@@ -507,6 +456,7 @@ section.services{
 	display: grid;
 	place-items: center;
 	width: 192px;
+
 }
 .insta span::first-letter {
 	opacity: 0.5;
@@ -516,24 +466,7 @@ p.linkedin{
 	display: grid;
 	place-items: center;
 	width: 192px;
-	text-shadow:0px 0px 105px #fff,
-      0px 0px 1px #fff, 
-      0px 0px 2px #fff,
-      0px 0px 0px #fff,
-      0px 0px 0px #fff,
-      0px 0px 0px #fff,
-      0px 0px 2px #fff,
-      0px 0px 2px #fff,
-      0px 0px 0px #fff,
-      0px 0px 5px #fff,
-      0px 0px 0px #7B96B8,
-   
-      0px 10px 5px #7B96B8,
-      0px 5px 5px #7B96B8,
-      0px 5px 5px #7B96B8,
-      0px 5px 5px #7B96B8,
-      0px -5px 5px #7B96B8,
-      0px -5px 5px #7B96B8;
+	
 }
 	
 
@@ -546,24 +479,7 @@ p.tiktok{
 	display: grid;
 	place-items: center;
 	width: 192px;
-	text-shadow:0px 0px 105px #fff,
-      0px 0px 1px #fff, 
-      0px 0px 2px #fff,
-      0px 0px 0px #fff,
-      0px 0px 0px #fff,
-      0px 0px 0px #fff,
-      0px 0px 2px #fff,
-      0px 0px 2px #fff,
-      0px 0px 0px #fff,
-      0px 0px 5px #fff,
-      0px 0px 0px #7B96B8,
-   
-      0px 10px 5px #7B96B8,
-      0px 5px 5px #7B96B8,
-      0px 5px 5px #7B96B8,
-      0px 5px 5px #7B96B8,
-      0px -5px 5px #7B96B8,
-      0px -5px 5px #7B96B8;
+	
 }
 	 
 
