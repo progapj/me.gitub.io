@@ -434,8 +434,8 @@ a.sss{
   }
   
   .buttonIcon {
-	width: 50%;
-box-shadow: 0px 0px 0px #ffffff00;
+	width: 10px;
+box-shadow: 0px 0px 10px #ffffffe1;
 	fill: var(--_fill, #656565);
 	transition: fill 0.3s;
 	font-size: medium;
@@ -495,3 +495,58 @@ i.fa-brands {
 }
 
 
+@media screen and (max-width: 440px) {
+	.gravityButton{
+		width: 110px;
+		transform: translate(-40px 0px);
+	}
+	footer{
+		background-image:linear-gradient(180deg,#15141b00
+		,#36344400) ;
+		color: #fff;
+		height: -50px;
+		display: flex;
+		place-items: center;
+		justify-content: center;
+	  
+	}
+
+		a.s{
+			
+            width: 140px;
+		}
+		a.ss{
+			width: 100px;
+		}
+		a.sss{
+			width: 70px;
+		}
+		section.services{
+			background-image:linear-gradient(180deg,#19182100, #15141b00) ;
+			color: #fff;
+			height: 10px;
+			display: flex;
+			place-items: center;
+			justify-content: center;
+			font-size: 10px;
+			transform: translate(-40px 0px);
+		}
+			.insta{
+				display: grid;
+				place-items: center;
+				width: 70px;
+			}
+			
+			p.linkedin{
+				display: grid;
+				place-items: center;
+				width: 110px;
+				
+			}
+			p.tiktok{
+				display: grid;
+				place-items: center;
+				width: 80px;
+				
+			}
+			}
