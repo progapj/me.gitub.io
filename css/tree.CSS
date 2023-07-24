@@ -80,7 +80,7 @@ footer.footer{
   .chip,
   .icon {
   
-    color: #ccc;
+    color: #ffffff;
     position: absolute;
     margin: 0;
     padding: 0;
@@ -88,14 +88,14 @@ footer.footer{
     text-transform: uppercase;
     font-size: clamp(0.75rem, 2.8vw + 0.2rem, 1.1rem);
     inset: 5%;
-    text-shadow: -1px -1px 0px rgba(255,255,255,0.5),1px -1px 0px rgba(255,255,255,0.5),1px 1px 0px rgba(0,0,0,0.5),1px -1px 0px rgba(0,0,0,0.5);
+    text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.867),1px -1px 0px rgba(255, 255, 255, 0.379),1px 1px 0px rgba(0,0,0,0.5),1px -1px 0px rgba(0,0,0,0.5);
     z-index: 5;
   
   }
   
   .name, .number, .expiry {
     background-image: linear-gradient(to bottom, #ededed00 20%, #bababa00 70%), none,
-      linear-gradient(120deg, transparent 10%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 60%, transparent 90%);
+      linear-gradient(120deg, transparent 10%, rgba(221, 14, 14, 0) 40%, rgba(255, 255, 255, 0) 60%, transparent 90%);
     background-size: cover, cover, 200%;
     background-position: 50% 50%;
     background-blend-mode: overlay;
@@ -121,7 +121,7 @@ footer.footer{
     top: auto;
   
   }
-  number
+
   .name {
   
     right: auto;
@@ -222,7 +222,7 @@ footer.footer{
   
   }
   
-  
+ name
   main {
 
     grid-template-rows: minmax(20px,100px) 1fr;
